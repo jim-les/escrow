@@ -1,0 +1,61 @@
+.signup-page{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(21, 20, 20);
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.signup-page h2{
+    font-size: 30px;
+}
+
+.signup_container{
+    width: 500px;
+}
+
+.signup_container button{
+    width: 100%;
+    height: 70px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    font-weight: 800;
+}
+
+.signup_container .create_btn{
+    background-color: rgb(164, 74, 41);
+}
+
+.create_passkey_btn{
+    background-color: rgb(164, 74, 41);
+}
+
+.cancel_btn{
+    border: none;
+    background-color: rgb(21, 20, 20);
+}
+
+.select_device{
+    position: absolute;
+    top: 1%;
+    width: 500px;
+    min-height: 300px;
+    background-color: rgb(21, 20, 20);
+    box-shadow: 2px 2px 4px 4px gray;
+    padding: 20px 20px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

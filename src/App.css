@@ -1,0 +1,176 @@
+.App{
+    width: 100%;
+    width: 100%;
+}
+
+.escrow-container{
+    display: flex;
+    width: 100%;
+}
+
+.escrow-container{
+    height: 100vh;
+    width: 100%;
+}
+.side_bar_container{
+    width: 15%;
+    height: 100%;
+    border-right: 1px solid var(--borderColor);
+}
+
+.side_bar_item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 40px;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.profile_side_bar_item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 20px;
+}
+
+.side_bar_container .defaultprofilepic{
+    width: 50px;
+}
+
+.side_bar_item.singin{
+    border-top: 1px solid var(--borderColor);
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.side_bar_item.singup{
+    border-bottom: 1px solid var(--borderColor);
+}
+
+
+
+/* overview css */
+.main_content_container{
+    width: 80%;
+}
+.topbar_container{
+    padding: 10px 20px;
+    width: 100%;
+    border-bottom: 1px solid var(--borderColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar_container .current_tab_title{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.mainent-market{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.mainent-market span{
+    color: var(--primaryColor);
+    padding: 0 10px;
+}
+
+.search{
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    border: var(--borderColor);
+    background-color: var(--primaryColor);
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}
+
+.overview_content_container{
+    display: flex;
+    width: 100%;
+}
+
+.overview_content{
+    padding: 40px 40px;
+    width: 70%;
+}
+
+.overview_content .sample_coins{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.overview_content .sample_coins_cards{
+    width: 100%;
+    padding: 20px 30px;
+    background-color: var(--primaryColor);
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.overview_content .coin_market_value{
+    font-size: 20px;
+    color: rgb(129, 212, 129);
+}
+
+.overview_widgets{
+    width: 20%;
+    width: 23%;
+}
+
+.exchange_widget{
+    border: 1px solid var(--borderColor);
+    margin: 20px 0;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+.custom-textfield {
+    background-color: rgb(84, 34, 20);
+}
+.custom-textfield .MuiInputBase-input {
+    color: white;
+}
+
+
+.widget_hr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.widget_hr img{
+    position: relative;
+}
+
+.exchange_button button{
+    width: 100%;
+    margin: 20px 0;
+    padding: 15px 0;
+    font-size: 18px;
+    background-color: var(--primaryColor);
+    border-radius: 8px;
+    border: none;
+}
+
+.exhange_detailes_card{
+    border: 1px solid var(--borderColor);
+    padding: 10px 10px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+.exhange_detailes_card .d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

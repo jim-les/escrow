@@ -1,0 +1,79 @@
+.trade-page{
+    padding: 40px 30px;
+    display: flex;
+    gap: 100px;
+}
+
+.available_sells_trade{
+    width: 600px;
+    border: 1px solid var(--borderColor);
+    border-radius: 15px;
+    padding: 20px 20px;
+    height: 65vh;
+}
+
+.available_sells_trade .sells_card{
+    border-bottom: 1px solid var(--borderColor);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.available_sells_trade .selling_btn button{
+    width: 150px;
+    padding: 15px 0;
+    border-radius: 30px;
+    background: linear-gradient(var(--primaryColor), rgb(255, 181, 181));
+    border: none;
+}
+
+.trade_btn{
+    width: 500px;
+    height: 60px;
+    background: linear-gradient(darkblue, blue);
+    box-shadow: 0px 0px 4px 4px gray;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.trade_btn:hover{
+    box-shadow: 0px 0px 10px 10px gray;
+}
+
+.trade_widget{
+    border: 1px solid var(--borderColor);
+    border-radius: 15px;
+    min-height: 400px;
+    padding: 10px 10px;
+}
+
+.trade_button{
+    width: 50%;
+    margin-right: 20px;
+    padding: 20px 10px;
+    border-radius: 8px;
+    background: linear-gradient(var(--primaryColor), rgb(255, 98, 98));
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.trade_button:last-child{
+    background: linear-gradient( blue, rgb(26, 3, 71));
+}
+
+.trade_button_btn{
+    width: 100%;
+    padding: 20px 10px;
+    margin: 4% 0;
+    background-color: var(--primaryColor);
+    border-radius: 30px;
+}
+
