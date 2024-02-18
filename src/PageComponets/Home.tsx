@@ -13,6 +13,7 @@ export const Home = () => {
   const autheticate = () => {
     navigate("/create-account");
   };
+
   return (
     <div className="overflow-x-hidden bg-[#f3f4f5] body">
       <NavBar />

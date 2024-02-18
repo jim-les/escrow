@@ -39,7 +39,9 @@ import { TermaConditions } from './PageComponets/Terms&Condtions';
 import { FAQs } from './PageComponets/Faqs';
 import { Trade } from './PageComponets/AuthRequired/Trade';
 import CreateAcount from './PageComponets/CreateAcount';
-
+import { Wallet } from "./PageComponets/AuthRequired/Wallet";
+import { Discover } from "./PageComponets/AuthRequired/Discover";
+import { Notifications } from "./PageComponets/AuthRequired/Notifications";
 const App: React.FC = () => {
     return (
         <Router>
@@ -54,6 +56,9 @@ const App: React.FC = () => {
                     <Route path="/privancy" element={<Privancy />} />
                     <Route path="/terms-conditions" element={<TermaConditions />} />
                     <Route path="/faqs" element={<FAQs />} />
+                    <Route path="/wallet" element={<Wallet/>}></Route>
+                    <Route path="/discover" element={<Discover/>}></Route>
+                    <Route path="/notifications" element={<Notifications/>}></Route>
                 </Routes>
             </div>
         </Router>
