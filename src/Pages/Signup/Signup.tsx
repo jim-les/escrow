@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import "./style.css";
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import LinkIcon from '@mui/icons-material/Link';
+import { backend } from '@/declarations/backend';
 
 const Signup: React.FC = () =>{
     const [step, setStep] = useState(1);
@@ -13,6 +14,10 @@ const Signup: React.FC = () =>{
     }
     const handeTogglePopu = (popup: boolean) => () => {
         setPopup(popup);
+    }
+
+    const handleCreateIdenity = () => {
+        
     }
     
     return (
@@ -61,7 +66,10 @@ const Signup: React.FC = () =>{
                                             <PhoneAndroidIcon style={{fontSize: "200px"}}/>
                                         </div>
                                         <p><b>Check you device <br /> A notification was sent SM_AF$</b></p>
-                                        <Link to="/">Didn't get it?</Link>
+                                        <div onClick={handleCreateIdenity}>
+                                        Didn't get it?
+                                        </div>
+                                            
                                     </>
                                 )}
 

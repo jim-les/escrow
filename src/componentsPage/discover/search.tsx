@@ -30,7 +30,7 @@ export const Search = () => {
           onClick={onClear}
         />
       )}
-      <Button type="submit" size="sm" className="rounded-1 none bg-background" variant="search">
+      <Button type="submit" size="sm" className="rounded-1 none bg-background" variant="outline">
         <SearchIcon className="text-muted-foregroun h-5 w-5" />
       </Button>
     </form>

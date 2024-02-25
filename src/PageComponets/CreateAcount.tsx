@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import "./style.css";
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import LinkIcon from '@mui/icons-material/Link';
+// import { Backend } from '@/declarations/backend/backend.did';
 
 const CreateAcount: React.FC = () => {
     const [step, setStep] = useState(1);
