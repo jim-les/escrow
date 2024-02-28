@@ -42,6 +42,8 @@ import CreateAcount from './PageComponets/CreateAcount';
 import { Wallet } from "./PageComponets/AuthRequired/Wallet";
 import { Discover } from "./PageComponets/AuthRequired/Discover";
 import { Notifications } from "./PageComponets/AuthRequired/Notifications";
+import Test from './PageComponets/Test';
+
 const App: React.FC = () => {
     return (
         <Router>
@@ -59,6 +61,7 @@ const App: React.FC = () => {
                     <Route path="/wallet" element={<Wallet/>}></Route>
                     <Route path="/discover" element={<Discover/>}></Route>
                     <Route path="/notifications" element={<Notifications/>}></Route>
+                    <Route path="/test" element={<Test/>}></Route>
                 </Routes>
             </div>
         </Router>
