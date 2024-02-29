@@ -8,7 +8,7 @@ import Time         "mo:base/Time";
 import Nat64        "mo:base/Nat64";
 
 //  Imports from helpers, utils, & types
-import LT           "ledger";
+import LT "ledger";
 
 module {
   //  ----------- return types

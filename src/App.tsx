@@ -43,6 +43,8 @@ import { Wallet } from "./PageComponets/AuthRequired/Wallet";
 import { Discover } from "./PageComponets/AuthRequired/Discover";
 import { Notifications } from "./PageComponets/AuthRequired/Notifications";
 import Test from './PageComponets/Test';
+import TransactionDetails from './PageComponets/TransactionDetails';
+import CryptoTrade from './PageComponets/CryptoTrade';
 
 const App: React.FC = () => {
     return (
@@ -61,7 +63,9 @@ const App: React.FC = () => {
                     <Route path="/wallet" element={<Wallet/>}></Route>
                     <Route path="/discover" element={<Discover/>}></Route>
                     <Route path="/notifications" element={<Notifications/>}></Route>
-                    <Route path="/test" element={<Test/>}></Route>
+                    {/* <Route path="/test" element={<Test/>}></Route> */}
+                    <Route path="/transaction-details" element={<TransactionDetails/>}></Route>
+                    <Route path="/crypto-trade" element={<CryptoTrade/>}></Route>
                 </Routes>
             </div>
         </Router>

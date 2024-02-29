@@ -59,3 +59,128 @@ li{
     gap: 10px;
     align-items: center;
 }
+
+.transactionDetails{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    color: #ffff;
+}
+
+.transactionDetails .topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid gray;
+}
+
+.transactionDetails  .section_topbar{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+} 
+
+.main_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.transactionDetails .transaction_card{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.transaction_card_container{
+    width: 25%;
+}
+
+.transactionDetails .trabsaction_card_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.trabsaction_card_imgx{
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.crypto-trade{
+    background-color: black;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    color: #ffff;
+}
+
+.crypto-trade .topbar{
+    border-bottom: 1px solid gray;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.d-flex-gap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+.crypto-trade .nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.crypto-trade .icon_cont{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ads_card{
+    width: 400px;
+    height: 300px;
+    background-color: aliceblue;
+    margin-right: 50px;
+    border-radius: 8px;
+    font-size: 800;
+    color : black;
+}
+
+.add_ads_section{
+    text-align: center;
+}
