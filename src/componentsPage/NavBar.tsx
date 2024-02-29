@@ -12,7 +12,7 @@ export const NavBar = () => {
   useClickAway(ref, () => setIsOpen(false));
   const navigation = useNavigate();
   const navigate = () => {
-    navigation("/dashboard");
+    navigation("/marketplace");
   };
   return (
     <div
@@ -30,7 +30,7 @@ export const NavBar = () => {
         >
           <Link to="/">
             <h1 className="text-yellow-300 text-4xl font-[900] mb-4">
-              Fair<span className="text-yellow-800">Trade</span>
+              Cyber<span className="text-yellow-800">Escrow</span>
             </h1>
           </Link>
           <div className="hidden lg:flex items-center justify-between space-x-4 ">

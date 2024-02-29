@@ -9,6 +9,8 @@ import Image from '../assets/INT_Blockchain-Blog_BLOG_HEADER.webp'
 import { useNavigate } from 'react-router-dom';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import { BitcoinIcon } from 'lucide-react';
+import { AuthNavBar } from "@/componentsPage/dashboard/auth-navnar";
+
 interface CoinProps {
     amount: string;
     price: string;
@@ -31,42 +33,8 @@ const CryptoTrade: React.FC = () => {
     };
 
     return (
-        <div className='crypto-trade'>
-            <div className="topbar d-flex">
-                <div className='d-flex-gap'>
-                    <div className="dot"></div>
-                    <h2>Crypto Trade</h2>
-                </div>
-
-                <div className="d-flex-gap">
-                    <div>
-                        <ul className='nav-bar'>
-                            <li>Buy</li>
-                            <li>Send</li>
-                            <li>Convert</li>
-                            <li>Receive</li>
-                        </ul>
-                    </div>
-                    <div className='d-flex-gap'>
-                        <div className="icon_cont">
-                            <SearchIcon />
-                        </div>
-                        <div className="icon_cont">
-                            <Notifications />
-                        </div>
-                        <div className="icon_cont">
-                            <Message />
-                        </div>
-                        <div className="icon_cont">
-                            <DotSquareIcon />
-                        </div>
-                    </div>
-
-                    <div className="transaction_card_img">
-                        <UserIcon style={{fontSize:"100px"}}/>
-                    </div>
-                </div>
-            </div>
+        <div className='crypto-trade body'>
+            <AuthNavBar />
 
             <div className="main_content d-flex-center">
                 <div>
@@ -166,7 +134,7 @@ const AvailableCoin: React.FC<{ coin: CoinProps }> = ({ coin }) => {
                 </div>
             </div>
 
-            <Button variant="contained" style={{ marginLeft: "auto" }} onClick={() => navigate('/transaction-details') } >Trade</Button>
+            <Button variant="contained" style={{ marginLeft: "auto" }} onClick={() => navigate('/purchase') } >Buy</Button>
         </div>
     )
 }

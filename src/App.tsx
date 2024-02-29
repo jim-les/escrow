@@ -42,9 +42,9 @@ import CreateAcount from './PageComponets/CreateAcount';
 import { Wallet } from "./PageComponets/AuthRequired/Wallet";
 import { Discover } from "./PageComponets/AuthRequired/Discover";
 import { Notifications } from "./PageComponets/AuthRequired/Notifications";
-import Test from './PageComponets/Test';
 import TransactionDetails from './PageComponets/TransactionDetails';
 import CryptoTrade from './PageComponets/CryptoTrade';
+import Purchase from  './PageComponets/AuthRequired/Purchase';
 
 const App: React.FC = () => {
     return (
@@ -65,7 +65,8 @@ const App: React.FC = () => {
                     <Route path="/notifications" element={<Notifications/>}></Route>
                     {/* <Route path="/test" element={<Test/>}></Route> */}
                     <Route path="/transaction-details" element={<TransactionDetails/>}></Route>
-                    <Route path="/crypto-trade" element={<CryptoTrade/>}></Route>
+                    <Route path="/marketplace" element={<CryptoTrade/>}></Route>
+                    <Route path="/purchase" element={<Purchase/>}></Route>
                 </Routes>
             </div>
         </Router>
